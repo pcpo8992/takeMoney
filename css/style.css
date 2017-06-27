@@ -1,13 +1,22 @@
+header {
+    margin: 1vh auto;
+}
+
 h1 {
     text-align: center;
     border-bottom: 1px solid rgba(195, 195, 195, 0.93);
     width: 70vw;
+    margin: auto;
+}
+
+section {
+    display: flex;
 }
 
 .container {
     height: 20vh;
     width: 90vw;
-    display: flex;
+    margin: 0px auto;
     border: 1px solid #337ab7;
     border-radius: 4px;
 }
@@ -30,25 +39,33 @@ h1 {
 
 .panel-heading .image {
     height: 100%;
-    width: 30%;
-    justify-content: space-around;
+    width: 35%;
 }
 
 .image .fa {
-    align-items: center;
+    height: 100%;
     width: 100%;
+    line-height: 1.3em;
+    text-align: center;
 }
 
 .panel-heading .title {
-    width: 70%;
+    width: 65%;
 }
 
 .title .huge {
     height: 70%;
+    font-size: 2.8em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.6em;
 }
 
 .title .text {
     height: 30%;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
 }
 
 .panel-footer {
@@ -59,4 +76,19 @@ h1 {
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
     color: #337ab7;
+}
+
+.panel-footer .pull-left {
+    font-size: 1.5em;
+    display: block;
+    height: 100%;
+    line-height: 1.5em;
+    margin-left: 1em;
+}
+
+.panel-footer .pull-right {
+    font-size: 1em;
+    height: 100%;
+    display: block;
+    margin: auto;
 }
