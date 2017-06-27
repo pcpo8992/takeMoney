@@ -9,8 +9,6 @@ h1 {
     margin: auto;
 }
 
-section {}
-
 .container {
     height: 20vh;
     width: 90vw;
@@ -92,7 +90,7 @@ section {}
 }
 
 .static-image {
-    height: 70vh;
+    height: 55vh;
     width: 90vw;
 }
 
