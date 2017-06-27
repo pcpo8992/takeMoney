@@ -47,15 +47,16 @@ h1 {
     height: 70%;
 }
 
-.title div {
+.title .text {
     height: 30%;
 }
 
 .panel-footer {
     height: 25%;
-    padding: 10px 15px;
+    padding: 0px 0px;
     background-color: #f5f5f5;
     border-top: 1px solid #ddd;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
+    color: #337ab7;
 }
