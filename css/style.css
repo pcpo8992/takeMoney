@@ -9,9 +9,7 @@ h1 {
     margin: auto;
 }
 
-section {
-    display: flex;
-}
+section {}
 
 .container {
     height: 20vh;
@@ -91,4 +89,21 @@ section {
     height: 100%;
     display: block;
     margin: auto;
+}
+
+.static-image {
+    height: 70vh;
+    width: 90vw;
+}
+
+footer {
+    height: 5vh;
+    line-height: 5vh;
+    background-color: #e6e6e3;
+    width: 90vw;
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: right;
 }
